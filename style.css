@@ -87,24 +87,54 @@
     background-color: #b60c00;
 }
 
-/* card */
-.card{
+/* input */
+.input{
     width: 200px;
-    height: 200px;
-    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 80%;
 }
-.card-header{
-    width: 100%;
-    height: 20%;
-    background-color: rgb(219, 215, 215);
+.textarea{
+    width: 200px;
+    height: 100px;
+    border-radius: 3px;
+    border: none;
+    opacity: 80%;
 }
-.card-body{
-    font-size: small;
-    text-align: center;
+/* Colors */
+.bg-red{
+    background-color: #BF150A;
 }
-.card-footer{
-    margin-top: 14%;
-    width: 100%;
-    height: 20%;
-    background-color: rgb(219, 215, 215);
+.bg-blue{
+    background-color: #1E55F5;
+}
+.bg-green{
+    background-color: #379487;
+}
+.bg-yellow{
+    background-color: #F5E363;
+}
+.bg-pink{
+    background-color: #F57CF5;
+}
+.bg-orange{
+    background-color: #F5665D;
+}
+
+.red{
+    color: #F52E3B;
+}
+.blue{
+    color: #00B2EB;
+}
+.pink{
+    color: #EB8FE8;
+}
+.green{
+    color:#4BEBC2;
+}
+.orange{
+    color: #EB5E50;
 }
