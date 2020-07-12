@@ -1,7 +1,9 @@
-ul{
-    margin-top: -10px;
+section{
+    width: 100vw;
+    height:100vh;
 }
+
 ul,li{
-    display: inline-block;
-    list-style: none;
+    display: inline;
+    text-align: center;
 }

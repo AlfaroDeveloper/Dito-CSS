@@ -9,104 +9,159 @@
     <title>Dito-CSS</title>
 </head>
 
-<body style="background-color:powderblue;">
-    <h1 class="h1">Dito-CSS</h1>
-
-    <div style="text-align:center;margin-bottom: 5rem;">
-        <h1 class="h4">Components</h1>
-        <!-- Buttons -->
-        <div style="background-color: #fff;width: 100%;height: 35vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-            <h1 class="h5">Buttons</h1>
-            <button class="btn primary">Primary</button>
-            <button class="btn secondary">Secondary</button>
-            <button class="btn success">Success</button>
-            <button class="btn info">Info</button>
-            <button class="btn warning">Warning</button>
-            <button class="btn danger">Danger</button>
-            <p class="text-lead">class = btn + ( selector )</p>
+<body>
+    <section class="bg-green">
+        <div class="jumbotron bg-green text-center">
+            <h1 class="h1 pt-0 pl-2 text-left" style="font-size: 2rem;">Dito-CSS</h1>
+            <h2 class="text-lead text-center pt-9 text-lg">Simple, Fast</h2>
+            <p class="text text-center white text-sm">Dito-CSS is a simple CSS theme, you can either download
+                on github and edit the theme yourself or use what is already in it.
+            </p>
+            <button class="btn-lg primary">
+                <a href="https://github.com/AlfaroDeveloper/Dito-CSS" target="_blank" class="text-lead white text-sm">GitHub</a>
+            </button>
+            <button class="btn-lg info">
+                <a href="code.html" class="text-lead white text-sm">Code</a>
+            </button>
         </div>
-        <!-- Paragraphs -->
-        <div style="background-color: #fff;width: 100%;height: 25vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-            <h1 class="h5">Paragraphs</h1>
+    </section>
+
+    <section class="bg-white text-center">
+        <h1 class="h1" style="font-size: 3rem;">Buttons</h1>
+        <div class="jumbotron bg-white text-center">
             <ul>
+                <h2 class="h1 ">Default</h2>
                 <li>
-                    <p class="text">class = text &nbsp;</p>
+                    <button class="btn primary">Primary</button>
                 </li>
                 <li>
-                    <p class="text-lead">class = text-lead &nbsp;</p>
+                    <button class="btn secondary">Secondary</button>
                 </li>
                 <li>
-                    <p class="text italic">class = italic</p>
+                    <button class="btn success">Success</button>
+                </li>
+                <li>
+                    <button class="btn info">Info</button>
+                </li>
+                <li>
+                    <button class="btn warning">Warning</button>
+                </li>
+                <li>
+                    <button class="btn danger">Danger</button>
                 </li>
             </ul>
-        </div>
-        <!-- Headers -->
-        <div style="background-color: #fff;width: 100%;height: 25vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-            <h1 class="h5">Headers</h1>
-            <p class="text-lead">class = h1 - h6</p>
             <ul>
+                <h2 class="h1 ">Medium</h2>
                 <li>
-                    <h1 class="h1">H1</h1>
+                    <button class="btn-md primary">Primary</button>
                 </li>
                 <li>
-                    <h2 class="h2">H2</h2>
+                    <button class="btn-md secondary">Secondary</button>
                 </li>
                 <li>
-                    <h3 class="h3">H3</h3>
+                    <button class="btn-md success">Success</button>
                 </li>
                 <li>
-                    <h4 class="h4">H4</h4>
+                    <button class="btn-md info">Info</button>
                 </li>
                 <li>
-                    <h5 class="h5">H5</h5>
+                    <button class="btn-md warning">Warning</button>
                 </li>
                 <li>
-                    <h6 class="h6">H6</h6>
+                    <button class="btn-md danger">Danger</button>
                 </li>
             </ul>
+            <ul style="margin: auto auto;">
+                <h2 class="h1 ">Large</h2>
+                <li>
+                    <button class="btn-lg primary">Primary</button>
+                </li>
+                <li>
+                    <button class="btn-lg secondary">Secondary</button>
+                </li>
+                <li>
+                    <button class="btn-lg success">Success</button>
+                </li>
+                <li>
+                    <button class="btn-lg info">Info</button>
+                </li>
+                <li>
+                    <button class="btn-lg warning">Warning</button>
+                </li>
+                <li>
+                    <button class="btn-lg danger">Danger</button>
+                </li>
+            </ul>
+            <br>
         </div>
-        <div style="background-color: #fff;width: 100%;height: 35vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-            <div style="width: 200px;margin: 0 auto;">
-                <h1 class="h5">Inputs</h1>
-                <input type="text" placeholder=" class = input" class="input info">
-                <textarea class="textarea primary" placeholder=" class = textarea"></textarea>
-            </div>
+    </section>
+
+    <hr class="blue op-9">
+
+    <section class="bg-white text-center">
+        <h1 class="h1" style="font-size: 3rem;">Headers</h1>
+        <div class="jumbotron">
 
         </div>
-        <div style="background-color: #fff;width: 100%;height: 35vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-            <div style="width: 200px;margin: 0 auto;">
-                <h1 class="h5">Background Colors</h1>
-                 <ul>
-                     <li>
-                         <div class="bg-red" style="width: 50px;height: 50px;">bg-red</div>
-                     </li>
-                     <li>
-                        <div class="bg-blue" style="width: 50px;height: 50px;">bg-blue</div>
-                     </li>
-                     <li>
-                        <div class="bg-green" style="width: 50px;height: 50px;">bg-green</div>
-                     </li>
-                     <li>
-                        <div class="bg-yellow" style="width: 50px;height: 50px;">bg-yellow</div>
-                     </li>
-                     <li>
-                        <div class="bg-pink" style="width: 50px;height: 50px;">bg-pink</div>
-                     </li>
-                     <li>
-                        <div class="bg-orange" style="width: 50px;height: 50px;">bg-orange</div>
-                     </li>
-                 </ul>
-            </div>
-        </div>
-        <div style="background-color: #fff;width: 100%;height: 35vh;text-align: center;margin: 0 auto;border-radius: 5px;">
-        <h1 class="h5">colors</h1>
-        <p class="text red">Red</p>
-        <p class="text blue">Blue</p>
-        <p class="text pink">Pink</p>
-        <p class="text green">Green</p>
-        <p class="text orange">Orange</p>
-        </div>
-    </div>
+    </section>
+
+    <hr class="blue op-9">
+
+    <section class="bg-white text-center">
+        <h1 class="h1" style="font-size: 3rem;">Background Colors</h1>
+        <ul>
+            <li>
+                <div style="margin: 0 auto;" class="bg-red w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-pink w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-green w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-white w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-blue w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-orange w-9 h-1"></div>
+            </li>
+            <li>
+                <div style="margin: 0 auto;" class="bg-yellow w-9 h-1">
+
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <hr class="blue op-9">
+
+    <section class="bg-white text-center">
+        <h1 class="h1" style="font-size: 3rem;">Colors</h1>
+        <ul>
+            <li>
+                <p class="text red" style="font-size: 2rem;">red text</p>
+            </li>
+            <li>
+                <p class="text blue" style="font-size: 2rem;">blue text</p>
+            </li>
+            <li>
+                <p class="text pink" style="font-size: 2rem;">pink text</p>
+            </li>
+            <li>
+                <p class="text green" style="font-size: 2rem;">yellow text</p>
+            </li>
+            <li>
+                <p class="text orange" style="font-size: 2rem;">orange text</p>
+            </li>
+            <li>
+                <p class="text white bg-pink" style="font-size: 2rem;">white text</p>
+            </li>
+        </ul>
+    </section>
+
 </body>
 
 </html>
