@@ -24,6 +24,12 @@ It includes the following classes
 | danger        | <img src="img/danger.png" />    |
 | btn-r-hb      | <img src="img/special.png" />   |
 
+ To use the button class first add the size of you button with **btn** || **btn-md** || **btn-lg** then one of the selectors
+ - **Example: class = "btn info"**
+ 
+To use the round button add **btn-r-hb** || **btn-r-hw** and then one of the colors below
+ - **Example: class = "btn-r-hb pink"**
+
 ## Text
 | class         | font-weight       | font       |
 | ------------- | ----------------- | ---------- |
