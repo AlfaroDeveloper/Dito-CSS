@@ -18,7 +18,7 @@ It includes the following classes
  ### Selectors
 | selector      | buttons                         |
 | ------------- | ------------------------------- |
-| primary       | <img src="img/primary.png/>"    |
+| primary       | <img src="img/primary.png">    |
 | secondary     | <img src="img/secondary.png" /> |
 | success       | <img src="img/success.png" />   |
 | info          | <img src="img/info.png" />      |
