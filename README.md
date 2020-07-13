@@ -2,8 +2,9 @@
 
 # Dito-CSS
 Dito-CSS Is a simple minified css file that allows you to focus more on content or layout.
-you can either download the css file and keep what you want or use the css min version and use the classes provided,
-It includes the following classes
+you can either download the css file and keep what you want or use the css min version and use the classes provided.
+
+*Dito-CSS Is not made to make responsive design easier but to make layout and design a little easier*
 
 
 ## Buttons               
@@ -79,6 +80,7 @@ To add color to you text or element add one of the color classes
 | bg-white  |
 | bg-black  |
 | bg-gray   |
+
 
 To add background color to you element add one of the background color classes
 * **Example: class = "bg-blue"**
