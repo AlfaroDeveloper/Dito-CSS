@@ -1,6 +1,6 @@
-<link rel="stylesheet"  href="style.css"/>
 
-# Dito-CSS
+<img src="img/dito-css.png"/>
+
 Dito-CSS Is a simple minified css file that allows you to focus more on content or layout.
 you can either download the css file and keep what you want or use the css min version and use the classes provided.
 
