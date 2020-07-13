@@ -1,3 +1,5 @@
+<link rel="stylesheet"  href="style.css"/>
+
 # Dito-CSS
 Dito-CSS Is a simple minified css file that allows you to focus more on content or layout.
 you can either download the css file and keep what you want or use the css min version and use the classes provided,
@@ -16,7 +18,7 @@ It includes the following classes
  ### Selectors
 | selector      | buttons                         |
 | ------------- | ------------------------------- |
-| primary       | <img src="img/primary.png" />   |
+| primary       | <img src="img/primary.png/>"    |
 | secondary     | <img src="img/secondary.png" /> |
 | success       | <img src="img/success.png" />   |
 | info          | <img src="img/info.png" />      |
@@ -42,3 +44,41 @@ To use the round button add **btn-r-hb** || **btn-r-hw** and then one of the col
 | text-lead     | bold 300          | Raleway    |
 | text          | bold 200          | Raleway    |
 | italic        | bold 200          | Raleway    |
+
+To use the header class add h1 - h6 and to use text class add text or text-lead
+* **Example: class = "h1"**
+* **Example: class = "text"**
+
+## Colors
+| colors |
+|--------|
+| red    |
+| blue   |
+| green  |
+| pink   |
+| yellow |
+| orange |
+| white  |
+| black  |
+<div class="bg-pink"></div>
+
+To add color to you text or element add one of the color classes
+* **Example: class = "blue"**
+* **Example: class = "text red"**
+* **Example: class = "btn-r-hb pink"**
+
+## Background Colors
+| colors    |
+|-----------|
+| bg-red    |
+| bg-blue   |
+| bg-green  |
+| bg-pink   |
+| bg-yellow |
+| bg-orange |
+| bg-white  |
+| bg-black  |
+| bg-gray   |
+
+To add background color to you element add one of the background color classes
+* **Example: class = "bg-blue"**
