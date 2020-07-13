@@ -6,7 +6,7 @@ you can either download the css file and keep what you want or use the css min v
 
 *Dito-CSS Is not made to make responsive design easier but to make layout and design a little easier*
 
-#### Get Started "<link style="stylesheet" href="https://alfarodeveloper.github.io/Dito-CSS/style.min.css"/>"
+##### Get Started `<link style="stylesheet" href="https://alfarodeveloper.github.io/Dito-CSS/style.min.css"/>`
 
 ## Buttons               
 | class         | description       |
